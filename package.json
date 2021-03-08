@@ -1,6 +1,6 @@
 {
-  "name": "react-native-code-push",
-  "version": "1000.0.0-beta",
+  "name": "@jimmychang/react-native-code-push",
+  "version": "1.0.0",
   "description": "React Native plugin for the CodePush service",
   "main": "CodePush.js",
   "typings": "typings/react-native-code-push.d.ts",
@@ -32,7 +32,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/react-native-code-push"
+    "url": "git+https://github.com/microsoft/react-native-code-push.git"
   },
   "dependencies": {
     "code-push": "^4.0.2",
@@ -76,5 +76,12 @@
       "postlink": "node node_modules/react-native-code-push/scripts/postlink/run",
       "postunlink": "node node_modules/react-native-code-push/scripts/postunlink/run"
     }
+  },
+  "bugs": {
+    "url": "https://github.com/microsoft/react-native-code-push/issues"
+  },
+  "directories": {
+    "doc": "docs",
+    "test": "test"
   }
 }
