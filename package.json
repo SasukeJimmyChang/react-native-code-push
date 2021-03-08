@@ -1,5 +1,5 @@
 {
-  "name": "@jimmychang/react-native-code-push",
+  "name": "react-native-code-push-extend",
   "version": "1.0.0",
   "description": "React Native plugin for the CodePush service",
   "main": "CodePush.js",
@@ -73,8 +73,8 @@
       ]
     },
     "commands": {
-      "postlink": "node node_modules/react-native-code-push/scripts/postlink/run",
-      "postunlink": "node node_modules/react-native-code-push/scripts/postunlink/run"
+      "postlink": "node node_modules/react-native-code-push-extend/scripts/postlink/run",
+      "postunlink": "node node_modules/react-native-code-push-extend/scripts/postunlink/run"
     }
   },
   "bugs": {
